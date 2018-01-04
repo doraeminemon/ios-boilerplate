@@ -1,0 +1,10 @@
+//
+//  Debug.xcconfig
+//  Boilerplate
+//
+//  Created by Do Dinh Thy  Son  on 1/5/18.
+//  Copyright © 2018 Innovatube. All rights reserved.
+//
+DISPLAY_NAME = Boilerplate debug
+BUNDLE_ID = com.innovatube.boilerplate.debug
+BASE_URL = staging.boilerplate.com
