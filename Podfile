@@ -1,27 +1,32 @@
 # https://cocoapods.org/
 
 source 'https://github.com/CocoaPods/Specs.git'
-# platform :ios, '9.0'
 use_frameworks!
 
 def shared_pods
-    # pod 'Alamofire'
-    # pod 'Moya/RxSwift'
+    pod 'Alamofire'
+    pod 'Moya', '~> 10.0'
+    pod 'Moya/RxSwift'
+    # pod 'EVReflection/MoyaRxSwift'
     # pod 'ObjectMapper'
     # pod 'Moya-ObjectMapper/RxSwift'
 
-    # pod 'RxSwift'
-    # pod 'RxCocoa'
+    pod 'RxSwift', '~> 4.1.0'
+    pod 'RxCocoa', '~> 4.0'
+    pod 'RxViewModel', git: 'http://www.github.com/yukimunet/RxViewModel.git', branch: 'master'
+#    pod 'RxDataSources'
+    pod 'RxPager', git: 'http://www.github.com/doraeminemon/RxPager.git', branch: 'master'
+    pod 'RxOptional'
+    pod 'RxRealm'
 
-    # pod 'RealmSwift'
-    # pod 'RxRealm'
+    pod 'RealmSwift'
 
     # pod 'FBSDKCoreKit'
     # pod 'FBSDKLoginKit'
     # pod 'FBSDKShareKit'
     # pod 'Google/SignIn'
 
-    # pod 'Kingfisher'
+    pod 'Kingfisher'
     # pod 'HanekeSwift'
     # pod 'Preheat'
 
@@ -31,12 +36,20 @@ def shared_pods
     # pod 'Eureka'
     # pod 'SlideMenuControllerSwift'
     # pod 'DZNEmptyDataSet'
-    # pod 'Whisper'
+    pod 'Whisper'
+    pod 'Windless'
     # pod 'BWWalkthrough'
     # pod 'PullToRefreshSwift'
 
     # pod 'AssistantKit'
-    # pod 'SwiftDate'
+    pod 'SwiftDate'
+    pod 'ReachabilitySwift'
+    pod 'Then'
+    pod 'Immutable'
+    pod 'SwiftyUserDefaults'
+    pod 'SwiftyAttributes'
+    
+    # pod 'DeviceKit'
 
     # pod 'LoremIpsum'
 end
