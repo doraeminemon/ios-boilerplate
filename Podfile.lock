@@ -1,5 +1,6 @@
 PODS:
   - Alamofire (4.6.0)
+  - Eureka (4.0.1)
   - Immutable (0.5.0)
   - Kingfisher (4.6.1)
   - Moya (10.0.1):
@@ -39,6 +40,7 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire
+  - Eureka
   - Immutable
   - Kingfisher
   - Moya (~> 10.0)
@@ -76,6 +78,7 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+  Eureka: c8bd5cc07143b6f66268c208d28a246c99b41955
   Immutable: a77b96749daf0f74d2471bca7dc08703b92fd6d8
   Kingfisher: 1f9157d9c02b380cbd0b7cc890161195164eb634
   Moya: 9e621707ff754eeb51ff3ec51a3d54e517c0733a
@@ -96,6 +99,6 @@ SPEC CHECKSUMS:
   Whisper: 169760fc4bab0abf24d5529f9276f95c25cf1025
   Windless: c6b7d63ac3a0c7e6b241e316650d4605abf71894
 
-PODFILE CHECKSUM: e0cddfe0b9142fbc210bb39c4b20bc068217dae3
+PODFILE CHECKSUM: d98aea3463ebe4844ad7a7da9ed6bdfb825e83e7
 
 COCOAPODS: 1.3.1

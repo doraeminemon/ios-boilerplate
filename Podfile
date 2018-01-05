@@ -33,7 +33,7 @@ def shared_pods
     # pod 'Firebase'
 
     # pod 'Cartography'
-    # pod 'Eureka'
+    pod 'Eureka'
     # pod 'SlideMenuControllerSwift'
     # pod 'DZNEmptyDataSet'
     pod 'Whisper'
