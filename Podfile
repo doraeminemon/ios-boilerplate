@@ -13,11 +13,13 @@ def shared_pods
 
     pod 'RxSwift', '~> 4.1.0'
     pod 'RxCocoa', '~> 4.0'
+    pod 'Action'
     pod 'RxViewModel', git: 'http://www.github.com/yukimunet/RxViewModel.git', branch: 'master'
 #    pod 'RxDataSources'
     pod 'RxPager', git: 'http://www.github.com/doraeminemon/RxPager.git', branch: 'master'
     pod 'RxOptional'
     pod 'RxRealm'
+    pod 'RxSwiftExt'
 
     pod 'RealmSwift'
 
@@ -32,6 +34,7 @@ def shared_pods
 
     # pod 'Firebase'
 
+    pod 'SnapKit'
     # pod 'Cartography'
     pod 'Eureka'
     # pod 'SlideMenuControllerSwift'

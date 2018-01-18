@@ -1,5 +1,10 @@
 # iOS boilerplate 
 
+## How to use
+- For fastlane integration, follow instruction on https://github.com/fastlane/fastlane
+- A demo of fastlane utilize project can be found here https://github.com/xmartlabs/FastlaneDemo
+
+
 ## Generic task
 Task which are common and shared between all projects.
 
